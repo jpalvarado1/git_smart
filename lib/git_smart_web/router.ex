@@ -17,7 +17,7 @@ defmodule GitSmartWeb.Router do
   scope "/", GitSmartWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    live "/", PageLive.Index, :index
   end
 
   # Other scopes may use custom stacks.

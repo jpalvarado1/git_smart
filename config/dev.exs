@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :git_smart, GitSmart.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "backend_jpac",
+  password: "JP5707ac",
   hostname: "localhost",
   database: "git_smart_dev",
   stacktrace: true,

@@ -6,8 +6,8 @@ import Config
 # to provide built-in test partitioning in CI environment.
 # Run `mix help test` for more information.
 config :git_smart, GitSmart.Repo,
-  username: "postgres",
-  password: "postgres",
+username: "backend_jpac",
+password: "JP5707ac",
   hostname: "localhost",
   database: "git_smart_test#{System.get_env("MIX_TEST_PARTITION")}",
   pool: Ecto.Adapters.SQL.Sandbox,
